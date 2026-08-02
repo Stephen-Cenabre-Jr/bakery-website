@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our menu of freshly baked breads, pastries, cakes, and seasonal specials at JJ's Bakeshop.">
+    <title>JJ's Bakeshop | Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/images/icons/logo.png" alt="JJ's Bakeshop Logo">
+                <span>JJ's Bakeshop</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+        </nav>
+    </header>
+    
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        
+        <!-- ===== PAGE HEADER ===== -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Freshly baked daily with love and the finest ingredients</p>
+            </div>
+        </section>
+        
+        <!-- ===== CATEGORY TABS (Engaging Element) ===== -->
+        <section id="menu-tabs">
+            <div class="container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-category="all">All</button>
+                    <button class="tab-btn" data-category="breads">Breads</button>
+                    <button class="tab-btn" data-category="pastries">Pastries</button>
+                    <button class="tab-btn" data-category="cakes">Cakes</button>
+                    <button class="tab-btn" data-category="seasonal">Seasonal</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== MENU ITEMS ===== -->
+        <section id="menu-items">
+            <div class="container">
+                <div class="menu-grid">
+                    
+                    <!-- Breads -->
+                    <div class="menu-item" data-category="breads">
+                        <img src="assets/images/products/sourdough.jpg" alt="Artisan Sourdough">
+                        <div class="menu-item-info">
+                            <h3>Artisan Sourdough</h3>
+                            <p class="description">Slow-fermented for 24 hours for a perfect tangy flavor and crispy crust.</p>
+                            <span class="price">$6.50</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" data-category="breads">
+                        <img src="assets/images/products/baguette.jpg" alt="Traditional Baguette">
+                        <div class="menu-item-info">
+                            <h3>Traditional Baguette</h3>
+                            <p class="description">Crispy golden crust with a soft, airy center. Perfect with butter or cheese.</p>
+                            <span class="price">$4.50</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" data-category="breads">
+                        <img src="assets/images/products/sourdough.jpg" alt="Whole Wheat Loaf">
+                        <div class="menu-item-info">
+                            <h3>Whole Wheat Loaf</h3>
+                            <p class="description">Nutritious and hearty, made with 100% stone-ground whole wheat flour.</p>
+                            <span class="price">$5.50</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Pastries -->
+                    <div class="menu-item" data-category="pastries">
+                        <img src="assets/images/products/croissant.jpg" alt="Butter Croissant">
+                        <div class="menu-item-info">
+                            <h3>Butter Croissant</h3>
+                            <p class="description">Flaky, golden layers made with French butter. A morning favorite.</p>
+                            <span class="price">$3.75</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" data-category="pastries">
+                        <img src="assets/images/products/croissant.jpg" alt="Pain au Chocolat">
+                        <div class="menu-item-info">
+                            <h3>Pain au Chocolat</h3>
+                            <p class="description">Buttery pastry filled with rich dark chocolate.</p>
+                            <span class="price">$4.00</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" data-category="pastries">
+                        <img src="assets/images/products/croissant.jpg" alt="Almond Danish">
+                        <div class="menu-item-info">
+                            <h3>Almond Danish</h3>
+                            <p class="description">Flaky pastry with almond cream filling and sliced almonds on top.</p>
+                            <span class="price">$4.25</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Cakes -->
+                    <div class="menu-item" data-category="cakes">
+                        <img src="assets/images/products/cake.jpg" alt="Celebration Cake">
+                        <div class="menu-item-info">
+                            <h3>Celebration Cake</h3>
+                            <p class="description">Custom cakes for birthdays, weddings, and all special occasions.</p>
+                            <span class="price">Inquire</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" data-category="cakes">
+                        <img src="assets/images/products/cake.jpg" alt="Seasonal Fruit Tart">
+                        <div class="menu-item-info">
+                            <h3>Seasonal Fruit Tart</h3>
+                            <p class="description">Buttery tart shell with pastry cream and fresh seasonal fruits.</p>
+                            <span class="price">$5.50</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Seasonal -->
+                    <div class="menu-item" data-category="seasonal">
+                        <img src="assets/images/products/cake.jpg" alt="Holiday Special">
+                        <div class="menu-item-info">
+                            <h3>Holiday Special</h3>
+                            <p class="description">Ask about our rotating seasonal specials!</p>
+                            <span class="price">Seasonal</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>JJ's Bakeshop</h3>
+                <p>Freshly baked with love since 2009</p>
+                <p>📍 123 Main Street, Your City</p>
+                <p>📞 (555) 123-4567</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">
+                        <img src="assets/images/icons/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <img src="assets/images/icons/facebook.svg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 JJ's Bakeshop. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
